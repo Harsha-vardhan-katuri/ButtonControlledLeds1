@@ -41,7 +41,7 @@ For the hardware setup, follow the circuit diagram. The JSON diagram for Wokwi i
 - Use an **external pull-down resistor (10kΩ)**
 
 ### **Resistors**
-- **220Ω** resistor for the LED to limit current.
+- **1kΩ** resistor for the LED to limit current.
 - **10kΩ** pull-down resistor for the pushbutton.
 
 ## JSON Diagram for Circuit
@@ -52,6 +52,10 @@ The Wokwi JSON diagram file is provided separately for visualization.
 2. Create a new project.
 3. Copy and paste the attached JSON file into the Wokwi editor.
 4. Run the simulation to test the circuit.
+
+### **Review the Project on Wokwi**
+You can view and simulate this project directly on Wokwi using the following link:
+[View on Wokwi](https://wokwi.com/projects/421686829195280385)
 
 ## Code Explanation
 
