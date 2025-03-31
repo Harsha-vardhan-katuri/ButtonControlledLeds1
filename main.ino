@@ -59,5 +59,5 @@ void loop() {
         blinkLED(20);
         blinkLED(30);
     }
-    delay(1000);
+    delay(500);
 }
