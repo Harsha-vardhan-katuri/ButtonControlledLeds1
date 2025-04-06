@@ -27,7 +27,7 @@ void setup() {
     while (millis() - startTime < 5000) {
         Serial.print("Button State: ");
         Serial.println(digitalRead(BUTTON_PIN));  // Print button state
-        if (digitalRead(BUTTON_PIN) == HIGH) {  // Button pressed (HIGH due to pull-down)
+        if (digitalRead(BUTTON_PIN) == HIGH) { 
             reverseOrder = true;
             Serial.println("Button Pressed! Reverse Order Activated.");
             break;
